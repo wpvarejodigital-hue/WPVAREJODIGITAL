@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WP Varejo Digital — Gestão, IA e Automação</title>
+<link rel="icon" href="assets/logo.svg">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="#inicio"><img src="assets/logo.svg" alt="WP Varejo Digital"></a>
+  <button id="menu" aria-label="Abrir menu">☰</button>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#solucoes">Soluções</a>
+    <a href="#diagnostico">Diagnóstico com IA</a>
+    <a href="#excel">Transforme seu Excel</a>
+    <a href="#loja">Compre Aqui</a>
+    <a href="#aplicacoes">Aplicações</a>
+    <a href="#empresas">Grandes Empresas</a>
+    <a href="#sobre">Sobre a WP</a>
+  </nav>
+  <a class="topcta" href="#contato">FALAR COM A WP ↗</a>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <div class="copy">
+    <label>TECNOLOGIA • IA • GESTÃO • AUTOMAÇÃO</label>
+    <h1>Você tem o desafio.<br><span>A WP encontra<br>a solução.</span></h1>
+    <p>Inteligência artificial, dados, automação e tecnologia para transformar problemas reais da sua empresa em soluções inteligentes.</p>
+    <div class="actions">
+      <a class="btn" href="#diagnostico">DESCREVA SEU DESAFIO <small>Inicie um diagnóstico com IA →</small></a>
+      <a class="btn outline" href="#solucoes">CONHEÇA NOSSAS SOLUÇÕES <small>Veja como podemos ajudar →</small></a>
+    </div>
+  </div>
+  <div class="heroart">
+    <div class="dashboard">
+      <div class="dashhead"><b>WP INTELLIGENCE</b><span>● ONLINE</span></div>
+      <div class="dashgrid">
+        <div><small>VENDAS</small><strong>R$ 1,25M</strong><em>+12,2%</em></div>
+        <div><small>ESTOQUE</small><strong>2.350</strong><em>itens</em></div>
+        <div><small>FROTA</small><strong>23</strong><em>ativos</em></div>
+        <div><small>EQUIPE</small><strong>48</strong><em>colaboradores</em></div>
+      </div>
+      <div class="chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="ai-badge">✦ IA CONECTANDO DADOS E PROCESSOS</div>
+    </div>
+  </div>
+</section>
+
+<div class="strip">
+  <span>✦ <b>IA APLICADA</b><small>A PROBLEMAS REAIS</small></span>
+  <span>⌘ <b>TECNOLOGIA</b><small>QUE CONECTA</small></span>
+  <span>▥ <b>DADOS QUE</b><small>GERAM DECISÕES</small></span>
+  <span>↗ <b>RESULTADOS QUE</b><small>IMPULSIONAM</small></span>
+</div>
+
+<section id="solucoes" class="section">
+  <div class="title">
+    <label>GESTÃO UNIVERSAL</label>
+    <h2>Onde estão os principais desafios da sua gestão?</h2>
+    <p>Clique em <b>ABRIR SOLUÇÃO</b> para conhecer cada possibilidade ou conte para nossa IA.</p>
+  </div>
+  <div class="areas">
+    <article><div class="cardart equipe">👥</div><b>👥 EQUIPES</b><p>Produtividade, metas, desempenho e comportamento.</p><a class="solution-btn" href="solucoes/equipes.html">ABRIR SOLUÇÃO →</a></article>
+    <article><div class="cardart estoque">📦</div><b>📦 ESTOQUE</b><p>Controle, validade, perdas, giro e rupturas.</p><a class="solution-btn" href="solucoes/estoque.html">ABRIR SOLUÇÃO →</a></article>
+    <article><div class="cardart frota">🚚</div><b>🚚 FROTA</b><p>Rotas, consumo, manutenção e localização.</p><a class="solution-btn" href="solucoes/frota.html">ABRIR SOLUÇÃO →</a></article>
+    <article><div class="cardart vendas">🤝</div><b>🤝 VENDAS</b><p>Conversão, clientes, indicadores e pontuação.</p><a class="solution-btn" href="solucoes/vendas.html">ABRIR SOLUÇÃO →</a></article>
+    <article><div class="cardart agenda">📅</div><b>📅 AGENDA</b><p>Compromissos, visitas e organização.</p><a class="solution-btn" href="solucoes/agenda.html">ABRIR SOLUÇÃO →</a></article>
+    <article><div class="cardart caixa">▣</div><b>▣ CAIXA</b><p>Conciliação, fluxo e visão financeira.</p><a class="solution-btn" href="solucoes/caixa.html">ABRIR SOLUÇÃO →</a></article>
+    <article><div class="cardart investimentos">📈</div><b>📈 INVESTIMENTOS</b><p>Rentabilidade, riscos e cenários.</p><a class="solution-btn" href="solucoes/investimentos.html">ABRIR SOLUÇÃO →</a></article>
+    <article><div class="cardart processos">⚙</div><b>⚙ PROCESSOS</b><p>Eficiência, automação e padronização.</p><a class="solution-btn" href="solucoes/processos.html">ABRIR SOLUÇÃO →</a></article>
+    <article class="other" onclick="document.querySelector('#diagnostico').scrollIntoView({behavior:'smooth'})"><strong>?</strong><b>OUTRO DESAFIO?</b><p>Conte para nossa IA</p></article>
+  </div>
+</section>
+
+<section id="diagnostico" class="section diag">
+  <div class="chat">
+    <label>WP INTELLIGENCE</label><h2>WP Diagnóstico Inteligente</h2>
+    <p>Uma conversa inicial para organizar a dor, fazer perguntas e transformar a ideia em possibilidades de solução.</p>
+    <div class="chatbox">
+      <div id="msgs"><div class="bot">Olá! Eu sou a inteligência da WP.<br>Qual é o principal desafio da sua empresa?</div></div>
+      <form id="form"><input id="input" autocomplete="off" placeholder="Digite aqui o desafio da sua empresa..."><button>→</button></form>
+    </div>
+  </div>
+  <aside class="method">
+    <h3>Como funciona</h3>
+    <p>① Entende o problema</p><p>② Faz perguntas inteligentes</p><p>③ Investiga o contexto</p><p>④ Identifica oportunidades</p><p>⑤ Sugere possíveis soluções</p><p>⑥ Gera pré-diagnóstico</p>
+  </aside>
+</section>
+
+<section class="section trio">
+  <article id="excel"><div><label>EXCEL → APLICAÇÃO</label><h2>Transforme seu Excel em uma aplicação</h2><p>Envie sua planilha e transforme controles manuais em uma aplicação estruturada.</p><a class="btn smallbtn" href="mailto:wpvarejodigital@gmail.com?subject=Transformar%20Excel%20em%20Aplicação">ENVIAR PLANILHA</a></div><div class="visual excelv">XLS → APP</div></article>
+  <article id="loja"><div><label>COMPRE AQUI</label><h2>Produtos de informática</h2><p>Equipamentos e soluções para sua empresa, vendidos sob demanda, sem necessidade de estoque próprio.</p><a class="btn smallbtn" href="#contato">VER PRODUTOS</a></div><div class="visual storev">COMPRE<br>AQUI</div></article>
+  <article><div><label>SOLUÇÕES</label><h2>Aplicações para sua empresa</h2><p>Sistemas personalizados, automação, dashboards, APIs e integrações.</p><a class="btn smallbtn" href="#aplicacoes">CONHECER SOLUÇÕES</a></div><div class="visual solvv">API<br>SQL<br>IA</div></article>
+</section>
+
+<section id="aplicacoes" class="section">
+  <div class="title"><label>SOLUÇÕES ESCALÁVEIS</label><h2>Aplicações que se adaptam ao seu negócio</h2><p>Valores iniciais ilustrativos. O orçamento final depende do escopo.</p></div>
+  <div class="plans">
+    <article><b>BÁSICA</b><h3>R$ 990</h3><p>Aplicação simples e funcional.</p><a href="#contato">ORÇAMENTO</a></article>
+    <article><b>PROFISSIONAL</b><h3>R$ 2.490</h3><p>Mais recursos para gestão.</p><a href="#contato">ORÇAMENTO</a></article>
+    <article class="featured"><b>AVANÇADA</b><h3>R$ 4.990</h3><p>Projeto, API, múltiplas contas, banco SQL e integrações.</p><a href="#contato">ABRIR PROJETO</a></article>
+    <article><b>CORPORATIVA</b><h3>Sob consulta</h3><p>Grandes operações e integrações.</p><a href="#contato">ESPECIALISTA</a></article>
+    <article><b>CLIENTE WP ★</b><h3>Conforme contrato</h3><p>Desconto ou isenção de suporte por 1 ano, conforme contrato.</p><a href="#contato">SOU CLIENTE WP</a></article>
+  </div>
+</section>
+
+<section id="empresas" class="section companies">
+  <div class="title"><label>ECOSSISTEMA WP</label><h2>Grandes empresas que confiam na WP</h2><p>Mural para empresas autorizadas, com estrelas representando faixas de contratos ativos.</p></div>
+  <div class="empty"><div>★★★★★</div><h3>Seu negócio pode estar aqui.</h3><p>Publicaremos apenas clientes autorizados.</p></div>
+</section>
+
+<section id="sobre" class="section about">
+  <div><label>SOBRE A WP</label><h2>Uma empresa. Muitos desafios. Tecnologia conectando tudo.</h2><p>A WP Varejo Digital combina software, automação, dados e inteligência artificial para entender problemas empresariais e transformar dores em soluções.</p></div>
+  <div class="tags"><span>IA aplicada</span><span>Dados</span><span>Automação</span><span>Aplicações</span><span>APIs</span><span>SQL</span><span>Gestão</span></div>
+</section>
+
+<section id="contato" class="contact">
+  <div><label>FALE COM A WP</label><h2>Qual é o desafio da sua empresa?</h2><p>Conte para nós. Nossa inteligência começa entendendo o problema.</p></div>
+  <div class="contactbox"><a class="btn" href="mailto:wpvarejodigital@gmail.com">ENVIAR E-MAIL</a><b>wpvarejodigital@gmail.com</b><small>Brasil • Atendimento comercial</small></div>
+</section>
+</main>
+
+<footer>
+  <img src="assets/logo.svg" alt="WP Varejo Digital">
+  <div><b>Soluções</b><a href="#solucoes">Gestão Universal</a><a href="#diagnostico">Diagnóstico com IA</a><a href="#excel">Excel → Aplicação</a></div>
+  <div><b>Serviços</b><a href="#loja">Compre Aqui</a><a href="#aplicacoes">Aplicações</a><a href="#empresas">Grandes Empresas</a></div>
+  <div><b>Legal</b><a href="politica-de-privacidade.html">Política de Privacidade</a><a href="mailto:wpvarejodigital@gmail.com">Contato</a></div>
+  <small>© 2026 WP Varejo Digital</small>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
